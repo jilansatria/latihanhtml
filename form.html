@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Table</title>
+  </head>
+  <body>
+    <h3>Form</h3>
+    <form action=" " method="post">
+      <table>
+        <tr>
+          <td><label for="nama">Username:</label></td>
+          <td><input type="text" name="Username" /></td>
+        </tr>
+        <tr>
+          <td><label for="password">Password:</label></td>
+          <td><input type="password" name="password" /></td>
+        </tr>
+        <tr>
+          <td><label for="jk">Jenis Kelamin:</label></td>
+          <td>
+            <input type="radio" name="radio" />Laki-Laki
+            <input type="radio" name="radio" />Perempuan
+            <input type="radio" name="radio" />Lainnya
+          </td>
+        </tr>
+        <tr>
+          <td><label for="alamat">Alamat:</label></td>
+          <td><textarea name="alamat"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="jurusan">Jurusan:</label></td>
+          <td>
+            <select name="Jurusan">
+              <option>RPL</option>
+              <option>PGSD</option>
+              <option>PGOAUD</option>
+              <option>TEKKOM</option>
+              <option>MULTIMEDIA</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="email" name="email" /></td>
+        </tr>
+        <tr>
+          <td><label for="tel">Telepon:</label></td>
+          <td><input type="tel" name="telepon" /></td>
+        </tr>
+        <tr>
+          <td><label for="number">Nomor:</label></td>
+          <td><input type="number" name="number" /></td>
+        </tr>
+        <tr>
+          <td><label for="web">Masukan halaman website:</label></td>
+          <td><input type="url" name="url" /></td>
+        </tr>
+        <tr>
+          <td><label for="slider">Penilaian:</label></td>
+          <td><input type="range" name="range" /></td>
+        </tr>
+        <tr>
+          <td><label for="warna">Warna:</label></td>
+          <td><input type="color" name="color" /></td>
+        </tr>
+        <tr>
+          <td><label for="tanggal">Tanggal:</label></td>
+          <td><input type="date" name="tanggal" /></td>
+        </tr>
+        <tr>
+          <td colspan="2"><button type="submit">Submit</button></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
